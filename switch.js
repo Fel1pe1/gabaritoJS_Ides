@@ -58,9 +58,9 @@ let quantidadeProduto =  parseInt(prompt("quantos Produto desse você gostaria?"
 
             switch(pagamento){
                 case 1:
-    
+                let parcela = parseInt(prompt("quantas parcelas "));
                 if(quantidadeProduto > 6){
-                alert(produtoUm * quantidadeProduto - desconto )
+                alert("O valor da sua compra foi "+ (produtoUm * quantidadeProduto - desconto)+"\n em "  )
                 }else {
                 alert(produtoUm * quantidadeProduto)
                 }
@@ -80,12 +80,11 @@ let quantidadeProduto =  parseInt(prompt("quantos Produto desse você gostaria?"
 
         case 2:
              let pagamento2 = parseInt(prompt("selecione a opção de pagamento: \n1 - Parcela \n2 - A vista "));
-            switch(pagamento){
+            switch(pagamento2){
 
 
                 case 1:
                 
-    
                 if(quantidadeProduto > 6){
                 alert(produtoUm * quantidadeProduto - desconto )
                 }else {
@@ -105,7 +104,8 @@ let quantidadeProduto =  parseInt(prompt("quantos Produto desse você gostaria?"
             }
         break;
         case 3:
-            switch(pagamento){
+            let pagamento3 = parseInt(prompt("selecione a opção de pagamento: \n1 - Parcela \n2 - A vista "));
+            switch(pagamento3){
                 case 1:
     
                 if(quantidadeProduto > 6){
