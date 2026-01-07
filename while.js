@@ -103,7 +103,7 @@ while (opcaoUsuario2 != 1) {
 ------------------------------------------------------------------------------------------------------------------- */
 
 // ScripParaBaixinhos
-
+/* 
 let numPatos = parseInt(prompt("Quantos patinhos tinham la na lagoinha?"))
 let patinhosVoltaram = numPatos - 1
 let patinhosVoltaramFinal = numPatos
@@ -125,4 +125,4 @@ while (numPatos != 0){
         numPatos -- 
         patinhosVoltaram --
 }
-alert(`A mamãe patinha saiu procurar\nDepois das montanhas\nPerto do mar\nA mamãe chamou: Quá, quá, quá, quá\nE os ${patinhosVoltaramFinal} patinhos voltaram de lá.`)
+alert(`A mamãe patinha saiu procurar\nDepois das montanhas\nPerto do mar\nA mamãe chamou: Quá, quá, quá, quá\nE os ${patinhosVoltaramFinal} patinhos voltaram de lá.`) */
